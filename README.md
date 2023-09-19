@@ -5,8 +5,8 @@ Install gimera and wodoo
 one time:
 pipx install gimera
 pipx install wodoo
-gimera completion -x
-odoo completion -x
+gimera completion -x   # skip if using bash, see [#1](/../../issues/1)
+odoo completion -x     # skip if using bash, see [#1](/../../issues/1)
 <relogin bash>
 
 then for the odoo:
